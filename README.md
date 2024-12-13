@@ -1,0 +1,1 @@
+This is a collection of my entries for the Advent of Code challenge 2024
