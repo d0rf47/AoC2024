@@ -1,6 +1,6 @@
 ﻿namespace Falconi.AoC.Day1
 {
-	class Program
+	class Part1
 	{
 
 		public static void Main(string[] args)

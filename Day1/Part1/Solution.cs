@@ -7,7 +7,7 @@ namespace Falconi.AoC.Day1
 	{
 		public List<int> Right { get; set; }
 		public List<int> Left { get; set; }
-		private string FileName { get; set; } = "input.txt";
+		private string FileName { get; set; } = "../input.txt";
 		public Solution()
 		{
 			Right = new();
@@ -30,10 +30,6 @@ namespace Falconi.AoC.Day1
 				Right.Add(right);
 				Left.Sort();
 				Right.Sort();
-			}
-			for (var i = 0; i < Left.Count; i++)
-			{
-				Console.WriteLine($"{Left[i]}   {Right[i]}");
 			}
 		}
 
